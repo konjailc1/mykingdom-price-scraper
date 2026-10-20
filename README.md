@@ -2,6 +2,8 @@
 
 A beginner-friendly Python tool for **toy price and promotion monitoring**. It reads the public product list of [MyKingdom Vietnam](https://www.mykingdom.com.vn), a Shopify toy store, and saves prices, discounts and stock status to CSV and Excel. Run it regularly and compare the files to see how prices and promotions change over time.
 
+![MyKingdom prices, original prices, discounts and stock](docs/screenshot.png)
+
 ## How it works
 
 Shopify stores publish their catalogue as structured JSON at `/products.json`. The script downloads:
